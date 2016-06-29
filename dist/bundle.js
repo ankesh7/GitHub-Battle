@@ -26489,7 +26489,7 @@
 	    React.createElement(
 	      'p',
 	      { className: 'lead' },
-	      'What even is a jQuery?'
+	      'Get Ready or Go Home !'
 	    ),
 	    React.createElement(
 	      Link,
