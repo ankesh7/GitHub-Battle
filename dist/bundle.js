@@ -19698,7 +19698,7 @@
 	var ReactRouter = __webpack_require__(161);
 	var Router = ReactRouter.Router;
 	var Route = ReactRouter.Route;
-	var hashHistory = ReactRouter.hashHistory;
+	var browserHistory = ReactRouter.browserHistory;
 	var IndexRoute = ReactRouter.IndexRoute;
 	var Main = __webpack_require__(223);
 	var Home = __webpack_require__(235);
@@ -19708,7 +19708,7 @@
 
 	var routes = React.createElement(
 	  Router,
-	  { history: hashHistory },
+	  { history: browserHistory },
 	  React.createElement(
 	    Route,
 	    { path: '/', component: Main },
